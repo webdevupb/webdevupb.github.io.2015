@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="fullheight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>WebDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+</head>
+<body class="fullheight">
+<div class="flexboxlayout fullheight">
+  <div class="wrapper">
+    <div class="row-fluid">
+      <div class="span3" id="menu_wrapper">
+        <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="images/transparent.png" below -->
+        <h2 id="menu_header" class="logotoppadding"><img id="webdev_logo" src="images/transparent.png" style="max-width: 100%;"></h2>
+        <div id="menu">
+          <ul style="font-family: 'OpenSansRegular';">
+            <li class="webdevmenuitem" data-id="#acasa">    <a href="#acasa">Ediția 2014</a>       </li>
+            <li class="webdevmenuitem" data-id="#frontend"> <a href="#frontend">Frontend Track</a> </li>
+            <li class="webdevmenuitem" data-id="#backend">  <a href="#backend">Backend Track</a>   </li>
+            <li class="webdevmenuitem" data-id="#cursanti"> <a href="#cursanti">Cursanți</a>       </li>
+            <li class="webdevmenuitem" data-id="#meta">     <a href="#meta">Despre noi</a>         </li>
+          </ul>
+        </div> <!-- id="menu" -->
+      </div> <!-- id="menu_wrapper" -->
+
+      <div class="main span8 offset1">
+        <span id="top_of_content"></span>
+        <div id="acasa_content" class="visualstate">
+          <h2 id="webdev_heading" style="margin-top: 12px; margin-bottom: 20px;">Ediția toamnă 2014 s-a încheiat.</h2>
+        </div> <!-- id="acasa_content" -->
+
+        <div id="frontend_content" class="visualstate">
+          <!-- We use JavaScript to load the most up-to-the-minute up-to-date course descriptions and dates from the file calendar.json, therefore the text containers inside the table cells below are empty. This workaround was necessary due to a particular behavior in Google Chrome. -->
+          <table>
+            <tr>
+              <td>
+                <h3>Frontend Track - Structură / Calendar</h3>
+                <br>
+                <strong>Cursurile de mai jos se vor ține în <a href="#cumseajunge" class="webdevmenuitem" data-id="#cumseajunge">EG306 (sala Intel)</a> în intervalul orar 10-14.<br>Hackaton-ul final se va desfășura pe parcursul celor două zile menționate mai jos, în intervalele orare 10-23 în prima zi, respectiv 10-18 în cea de-a doua zi.</strong>
+                <br>&nbsp;
+                <br>&nbsp;
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="table" id="frontend_schedule">
+                  <tr>
+                    <td>
+                      <strong>Git / GitHub / CSS Selectors</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>11 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AJAX</strong>
+                      <br>
+                      <strong>(cu Alexandru Topliceanu)</strong>
+                    </td>
+                    <td class="alignright"><strong>18 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Browser Automation / UXD</strong>
+                      <br>
+                      <strong>(cu Dan Șerban și Zsolt Incze)</strong>
+                    </td>
+                    <td class="alignright"><strong>26 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #1 / UXD</strong>
+                      <br>
+                      <strong>(cu Alin Mîndroc și Ciprian Gavriliu)</strong>
+                    </td>
+                    <td class="alignright"><strong>1 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #2</strong>
+                      <br>
+                      <strong>(cu Alexandru Topliceanu)</strong>
+                    </td>
+                    <td class="alignright"><strong>8 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #3</strong>
+                      <br>
+                      <strong>(cu Silviu-Georgian Aprozeanu)</strong>
+                    </td>
+                    <td class="alignright"><strong>16 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #4</strong>
+                      <br>
+                      <strong>(cu Andrei Antal)</strong>
+                    </td>
+                    <td class="alignright"><strong>22 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>NodeJS / Socket.IO</strong>
+                      <br>
+                      <strong>(cu Alexandru Topliceanu)</strong>
+                    </td>
+                    <td class="alignright"><strong>6 dec. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Hackaton Final</strong>
+                      <br>
+                      <strong></strong>
+                    </td>
+                    <td class="alignright"><strong>13-14 dec. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <strong>Programul de mai sus poate suferi modificări în funcție de disponibilitatea instructorilor / sălilor.<br>Te rugăm să-l consulți ori de câte ori este necesar pentru a fi la curent cu eventuale modificări de ultim moment.</strong>
+              </td>
+            </tr>
+          </table>
+        </div> <!-- id="frontend_content" -->
+
+        <div id="backend_content" class="visualstate">
+          <!-- We use JavaScript to load the most up-to-the-minute up-to-date course descriptions and dates from the file calendar.json, therefore the text containers inside the table cells below are empty. This workaround was necessary due to a particular behavior in Google Chrome. -->
+          <table>
+            <tr>
+              <td>
+                <h3>Backend Track - Structură / Calendar</h3>
+                <br>
+                <strong>Cursurile de mai jos se vor ține în <a href="#cumseajunge" class="webdevmenuitem" data-id="#cumseajunge">EG106 (sala Ixia)</a> în intervalul orar 10-14.<br>Hackaton-ul final se va desfășura pe parcursul celor două zile menționate mai jos, în intervalele orare 10-23 în prima zi, respectiv 10-18 în cea de-a doua zi.</strong>
+                <br>&nbsp;
+                <br>&nbsp;
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="table" id="backend_schedule">
+                  <tr>
+                    <td>
+                      <strong>Ruby #1</strong>
+                      <br>
+                      <strong>(cu Andrei Bocan)</strong>
+                    </td>
+                    <td class="alignright"><strong>11 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby #2</strong>
+                      <br>
+                      <strong>(cu Alex Palcuie)</strong>
+                    </td>
+                    <td class="alignright"><strong>18 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Git / Rails Sneak Preview</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>25 oct. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #1 (View / Controller)</strong>
+                      <br>
+                      <strong>(cu Andrei Bocan)</strong>
+                    </td>
+                    <td class="alignright"><strong>1 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #2 (View / Controller)</strong>
+                      <br>
+                      <strong>(cu Andrei Bocan)</strong>
+                    </td>
+                    <td class="alignright"><strong>8 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #3 (ActiveRecord)</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>16 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #4 (ActiveRecord)</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>22 nov. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #5 (ActiveRecord)</strong>
+                      <br>
+                      <strong>(cu Gabriel Voicu)</strong>
+                    </td>
+                    <td class="alignright"><strong>7 dec. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Hackaton Final</strong>
+                      <br>
+                      <strong></strong>
+                    </td>
+                    <td class="alignright"><strong>13-14 dec. 2014<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <strong>Programul de mai sus poate suferi modificări în funcție de disponibilitatea instructorilor / sălilor.<br>Te rugăm să-l consulți ori de câte ori este necesar pentru a fi la curent cu eventuale modificări de ultim moment.</strong>
+              </td>
+            </tr>
+          </table>
+        </div> <!-- id="backend_content" -->
+
+        <div id="cursanti_content" class="visualstate">
+          <table class="table">
+            <tr><td colspan=2><h3>Cursanți WebDev - Frontend Track</h3></td></tr>
+            <tr><td><strong>Teodor Ștefu</strong></td></tr> <!-- teodorst -->
+            <tr><td><strong>Alexandros Dimos</strong></td></tr> <!-- Redridge -->
+            <tr><td><strong>Alexandru Niculae</strong></td></tr> <!-- alexnix -->
+            <tr><td><strong>Roxana-Steliana Căpitanu</strong></td></tr> <!-- RoxanaCpt -->
+            <tr><td><strong>Diana Băluțoiu</strong></td></tr> <!-- diana-balutoiu -->
+            <tr><td><strong>Ionel Cerghit</strong></td></tr> <!-- ionel-cerghit -->
+            <tr><td><strong>Mihai-Alexandru Niculae</strong></td></tr> <!-- Mihai7 -->
+            <tr><td><strong>Robert Mihăiță Badea</strong></td></tr> <!-- Owlree -->
+            <tr><td><strong>Dumitru Nemțuc</strong></td></tr> <!-- dumytru -->
+            <tr><td><strong>Dragoș Andrei Bostan</strong></td></tr> <!-- masterbd -->
+            <tr><td><strong>Romeo Tudureanu</strong></td></tr> <!-- romeeo -->
+            <tr><td><strong>Iulian-Gabriel Radu</strong></td></tr> <!-- iulianR -->
+            <tr><td><strong>Ramona-Cristina Popa</strong></td></tr> <!-- ramonapopa -->
+            <tr><td><strong>Andrei Gabriel Macavei</strong></td></tr> <!-- andreimacavei -->
+            <tr><td><strong>Iulia-Elena Dobra</strong></td></tr> <!-- whizzy -->
+            <tr><td colspan=2><h3>Cursanți WebDev - Backend Track</h3></td></tr>
+            <tr><td><strong>Mihai Chirculescu</strong></td></tr> <!-- Mihaiii -->
+            <tr><td><strong>Nadina Maria Pîrvănescu</strong></td></tr> <!-- NadinaMaria -->
+            <tr><td><strong>Andrei-Mario Dinu</strong></td></tr> <!-- dinuand -->
+            <tr><td><strong>Călin Banu</strong></td></tr> <!-- BanuCalin -->
+            <tr><td><strong>Andrei-Vlad Poștoacă</strong></td></tr> <!-- vladysimo -->
+            <tr><td><strong>Alexandru-Andrei Rotaru</strong></td></tr> <!-- rotalex -->
+            <tr><td><strong>Miruna Ștefania Barbu</strong></td></tr> <!-- mirunabarbu -->
+            <tr><td><strong>Daniela-Liliana Drăgan</strong></td></tr> <!-- danieladragan -->
+            <tr><td><strong>Vasile Țoncu</strong></td></tr> <!-- vtt271 -->
+            <tr><td><strong>Ioan Mihai Manta</strong></td></tr> <!-- jonutz93 -->
+            <tr><td><strong>Rareș-Mihail Visalom</strong></td></tr> <!-- raresvis -->
+            <tr><td><strong>Alexandru Ionescu</strong></td></tr> <!-- Andupk -->
+            <tr><td><strong>Ion Pavlov</strong></td></tr> <!-- ionpavlov -->
+            <tr><td><strong>Darius-Florentin Neațu</strong></td></tr> <!-- neatudarius -->
+            <tr><td><strong>Radu-Dumitru Stochițoiu</strong></td></tr> <!-- radusqrt -->
+            <tr><td><strong>Oana Stroie</strong></td></tr> <!-- StroieOana -->
+            <tr><td><strong>Andrei Apostoiu</strong></td></tr> <!-- andlol -->
+            <tr><td><strong>Andrei-Emanuel Vasilescu</strong></td></tr> <!-- manudizandrei -->
+            <tr><td><strong>Dorian Iacobescu</strong></td></tr> <!-- iacobson -->
+            <tr><td><strong>Alexandru Elisei</strong></td></tr> <!-- alexandru-elisei -->
+            <tr><td><strong>Andrei Ștefănescu</strong></td></tr> <!-- AndreiRO -->
+          </table>
+        </div> <!-- id="cursanti_content" -->
+
+        <div id="meta_content" class="visualstate">
+          <h3>Credits</h3>
+          <p>(în ordine alfabetică):
+          <br>
+          Andrei Antal, Andrei Bocan, Dragoș Bostan, Bogdan Breșug, Cosmin Didii, Alin Mîndroc, Victor Mitriș, Darius Neațu, Alex Palcuie, Cătălin Ramașcanu, Alexandra Săndulescu, Cezar Sîrbu, Dan Șerban, Andrei Ștefănescu, Alexandru Topliceanu, Alexandru Tudorică, Gabriel Voicu și prietenii.</p>
+        </div> <!-- id="meta_content" -->
+
+        <h3>&nbsp;</h3>
+
+        <p class="extra_buttons" id="tap_target_acasa">
+          <button class="btn greybutton webdevmenuitem" data-id="#acasa">
+            <strong>Ediția 2014</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#frontend">
+            <strong>Frontend Track</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#backend">
+            <strong>Backend Track</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#cursanti">
+            <strong>Cursanți</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#meta">
+            <strong>Despre noi</strong>
+          </button>
+        </p>
+      </div> <!-- class="main span8 offset1" -->
+    </div> <!-- class="row-fluid" -->
+  </div> <!-- class="wrapper" -->
+
+  <div style="display: none;">
+    <img id="arrow_hover" src="">
+    <img id="gradient" src="">
+  </div>
+</div> <!-- class="flexboxlayout fullheight" -->
+</body>
+</html>
+<script type="text/html" id="schedule_item">
+<tr>
+  <td>
+    <strong><%= course_description %></strong>
+    <br>
+    <strong><%= course_instructor %></strong>
+  </td>
+  <td class="alignright"><strong><%= course_date %><br>&nbsp;<br>&nbsp;</strong></td>
+</tr>
+</script>
+<script src="js/zepto.min.js"></script>
+<script src="js/underscore.min.js"></script>
+<script src="js/main.js"></script>
+

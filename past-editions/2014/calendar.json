@@ -1,0 +1,77 @@
+{
+  "frontend": [ { "course_description": "Git / GitHub / CSS Selectors",
+                  "course_instructor":  "(cu Dan Șerban)",
+                  "course_date":        "11 oct. 2014"
+                },
+                { "course_description": "AJAX",
+                  "course_instructor":  "(cu Alexandru Topliceanu)",
+                  "course_date":        "18 oct. 2014"
+                },
+                { "course_description": "Browser Automation / UXD",
+                  "course_instructor":  "(cu Dan Șerban și Zsolt Incze)",
+                  "course_date":        "26 oct. 2014"
+                },
+                { "course_description": "AngularJS #1 / UXD",
+                  "course_instructor":  "(cu Alin Mîndroc și Ciprian Gavriliu)",
+                  "course_date":        "1 nov. 2014"
+                },
+                { "course_description": "AngularJS #2",
+                  "course_instructor":  "(cu Alexandru Topliceanu)",
+                  "course_date":        "8 nov. 2014"
+                },
+                { "course_description": "AngularJS #3",
+                  "course_instructor":  "(cu Silviu-Georgian Aprozeanu)",
+                  "course_date":        "16 nov. 2014"
+                },
+                { "course_description": "AngularJS #4",
+                  "course_instructor":  "(cu Andrei Antal)",
+                  "course_date":        "22 nov. 2014"
+                },
+                { "course_description": "NodeJS / Socket.IO",
+                  "course_instructor":  "(cu Alexandru Topliceanu)",
+                  "course_date":        "6 dec. 2014"
+                },
+                { "course_description": "Hackaton Final",
+                  "course_instructor":  "",
+                  "course_date":        "13-14 dec. 2014"
+                }
+              ],
+  "backend":  [ { "course_description": "Ruby #1",
+                  "course_instructor":  "(cu Andrei Bocan)",
+                  "course_date":        "11 oct. 2014"
+                },
+                { "course_description": "Ruby #2",
+                  "course_instructor":  "(cu Alex Palcuie)",
+                  "course_date":        "18 oct. 2014"
+                },
+                { "course_description": "Git / Rails Sneak Preview",
+                  "course_instructor":  "(cu Dan Șerban)",
+                  "course_date":        "25 oct. 2014"
+                },
+                { "course_description": "Ruby on Rails #1 (View / Controller)",
+                  "course_instructor":  "(cu Andrei Bocan)",
+                  "course_date":        "1 nov. 2014"
+                },
+                { "course_description": "Ruby on Rails #2 (View / Controller)",
+                  "course_instructor":  "(cu Andrei Bocan)",
+                  "course_date":        "8 nov. 2014"
+                },
+                { "course_description": "Ruby on Rails #3 (ActiveRecord)",
+                  "course_instructor":  "(cu Dan Șerban)",
+                  "course_date":        "16 nov. 2014"
+                },
+                { "course_description": "Ruby on Rails #4 (ActiveRecord)",
+                  "course_instructor":  "(cu Dan Șerban)",
+                  "course_date":        "22 nov. 2014"
+                },
+                { "course_description": "Ruby on Rails #5 (ActiveRecord)",
+                  "course_instructor":  "(cu Gabriel Voicu)",
+                  "course_date":        "7 dec. 2014"
+                },
+                { "course_description": "Hackaton Final",
+                  "course_instructor":  "",
+                  "course_date":        "13-14 dec. 2014"
+                }
+              ]
+}
+
