@@ -52,7 +52,7 @@
                   "course_date":        "24 oct. 2015"
                 },
                 { "course_description": "Ruby on Rails #1 / View / Controller",
-                  "course_instructor":  "(cu Alex Palcuie)",
+                  "course_instructor":  "()",
                   "course_date":        "31 oct. 2015"
                 },
                 { "course_description": "Ruby on Rails #2 / ActiveRecord",
@@ -72,7 +72,7 @@
                   "course_date":        "28 nov. 2015"
                 },
                 { "course_description": "Ruby on Rails #6 / ActiveRecord Migrations / Devise",
-                  "course_instructor":  "(cu Gabriel Voicu)",
+                  "course_instructor":  "()",
                   "course_date":        "5 dec. 2015"
                 },
                 { "course_description": "Hackaton Final",
