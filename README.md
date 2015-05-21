@@ -1,3 +1,3 @@
-WebDev site repository
+WebDev UPB site repository
 
-The WebDev project is hosted at http://webdevupb.github.io/
+The WebDev UPB project is hosted at http://webdevupb.github.io/
