@@ -3,35 +3,31 @@
                   "course_date":        "17 oct. 2015"
                 },
                 { "course_description": "AngularJS #1 / Concepts / Backend-less Applications",
-                  "course_instructor":  "(cu Dragoș Bostan)",
-                  "course_date":        "18 oct. 2015"
-                },
-                { "course_description": "AngularJS #2 / AJAX / $http.get / $http.post",
-                  "course_instructor":  "(cu Alexandru Topliceanu)",
+                  "course_instructor":  "(TBD)",
                   "course_date":        "24 oct. 2015"
                 },
-                { "course_description": "AngularJS #3 / With Rails As The Backend",
+                { "course_description": "AngularJS #2 / AJAX / $http.get / $http.post",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "31 oct. 2015"
                 },
-                { "course_description": "AngularJS #4 / With Rails As The Backend",
-                  "course_instructor":  "(cu Alin Mîndroc)",
+                { "course_description": "AngularJS #3 / With Rails As The Backend",
+                  "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "7 nov. 2015"
                 },
-                { "course_description": "AngularJS #5 / With Rails As The Backend",
+                { "course_description": "AngularJS #4 / With Rails As The Backend",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "14 nov. 2015"
                 },
-                { "course_description": "AngularJS #6 / With Rails As The Backend",
-                  "course_instructor":  "(cu Dan Șerban)",
+                { "course_description": "AngularJS #6 / The Ionic Framework",
+                  "course_instructor":  "(cu Andrei Antal)",
                   "course_date":        "21 nov. 2015"
                 },
-                { "course_description": "AngularJS #7 / The Ionic Framework",
-                  "course_instructor":  "(cu Andrei Antal)",
+                { "course_description": "AngularJS #5 / Socket.IO / Three-Way Binding",
+                  "course_instructor":  "(TBD)",
                   "course_date":        "28 nov. 2015"
                 },
-                { "course_description": "AngularJS #8 / Socket.IO / Three-Way Binding",
-                  "course_instructor":  "()",
+                { "course_description": "AngularJS #7 / Socket.IO / Three-Way Binding",
+                  "course_instructor":  "(TBD)",
                   "course_date":        "5 dec. 2015"
                 },
                 { "course_description": "Hackaton Final",
@@ -43,35 +39,31 @@
                   "course_instructor":  "(cu Andrei Bocan)",
                   "course_date":        "17 oct. 2015"
                 },
-                { "course_description": "Git / Rails Sneak Preview",
-                  "course_instructor":  "(cu Dan Șerban)",
-                  "course_date":        "18 oct. 2015"
-                },
                 { "course_description": "Ruby #2 (Advanced)",
                   "course_instructor":  "(cu Andrei Bocan)",
                   "course_date":        "24 oct. 2015"
                 },
-                { "course_description": "Ruby on Rails #1 / View / Controller",
+                { "course_description": "Git / Rails Sneak Preview",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "31 oct. 2015"
                 },
-                { "course_description": "Ruby on Rails #2 / ActiveRecord",
+                { "course_description": "Ruby on Rails #1 / View / Controller",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "7 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #3 / ActiveRecord",
+                { "course_description": "Ruby on Rails #2 / ActiveRecord",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "14 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #4 / With AngularJS As The Frontend",
+                { "course_description": "Ruby on Rails #3 / With AngularJS As The Frontend",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "21 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #5 / With AngularJS As The Frontend",
+                { "course_description": "Ruby on Rails #4 / With AngularJS As The Frontend",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "28 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #6 / ActiveRecord Migrations / Devise",
+                { "course_description": "Ruby on Rails #5 / ActiveRecord Migrations",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "5 dec. 2015"
                 },
