@@ -3,7 +3,7 @@
                   "course_date":        "17 oct. 2015"
                 },
                 { "course_description": "AngularJS #1 / Concepts / Backend-less Applications",
-                  "course_instructor":  "(TBD)",
+                  "course_instructor":  "(cu Alexandru Niculae și Laurențiu Piciu)",
                   "course_date":        "24 oct. 2015"
                 },
                 { "course_description": "AngularJS #2 / AJAX / $http.get / $http.post",
@@ -14,12 +14,12 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "7 nov. 2015"
                 },
-                { "course_description": "AngularJS #4 / With Rails As The Backend",
-                  "course_instructor":  "(cu Dan Șerban)",
+                { "course_description": "AngularJS #4 / Custom Directives",
+                  "course_instructor":  "(cu Laurențiu Piciu și Valentin Buză)",
                   "course_date":        "14 nov. 2015"
                 },
-                { "course_description": "AngularJS #6 / The Ionic Framework",
-                  "course_instructor":  "(cu Andrei Antal)",
+                { "course_description": "AngularJS #6 / ngMessages / Form Validation",
+                  "course_instructor":  "(cu Valentin Buză)",
                   "course_date":        "21 nov. 2015"
                 },
                 { "course_description": "AngularJS #5 / Socket.IO / Three-Way Binding",
