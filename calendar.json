@@ -1,6 +1,6 @@
 { "frontend": [ { "course_description": "Git / GitHub / Single Page Applications",
                   "course_instructor":  "(cu Dan Șerban)",
-                  "course_date":        "17 oct. 2015"
+                  "course_date":        "18 oct. 2015"
                 },
                 { "course_description": "AngularJS #1 / Concepts / Backend-less Applications",
                   "course_instructor":  "(cu Alexandru Niculae și Laurențiu Piciu)",
@@ -35,20 +35,20 @@
                   "course_date":        "12-13 dec. 2015"
                 }
               ],
-  "backend":  [ { "course_description": "Ruby #1 (Basic)",
-                  "course_instructor":  "(cu Andrei Bocan)",
+  "backend":  [ { "course_description": "Git / Rails Sneak Preview",
+                  "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "17 oct. 2015"
+                },
+                { "course_description": "Ruby #1 (Basic)",
+                  "course_instructor":  "(cu Darius Neațu și Radu Stochițoiu)",
+                  "course_date":        "24 oct. 2015"
                 },
                 { "course_description": "Ruby #2 (Advanced)",
                   "course_instructor":  "(cu Andrei Bocan)",
-                  "course_date":        "24 oct. 2015"
-                },
-                { "course_description": "Git / Rails Sneak Preview",
-                  "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "31 oct. 2015"
                 },
                 { "course_description": "Ruby on Rails #1 / View / Controller",
-                  "course_instructor":  "(cu Dan Șerban)",
+                  "course_instructor":  "(cu Andrei Bocan)",
                   "course_date":        "7 nov. 2015"
                 },
                 { "course_description": "Ruby on Rails #2 / ActiveRecord",
