@@ -15,10 +15,10 @@
                   "course_date":        "7 nov. 2015"
                 },
                 { "course_description": "AngularJS #4 / Custom Directives",
-                  "course_instructor":  "(cu Laurențiu Piciu și Valentin Buză)",
+                  "course_instructor":  "(cu Laurențiu Piciu)",
                   "course_date":        "14 nov. 2015"
                 },
-                { "course_description": "AngularJS #6 / ngMessages / Form Validation",
+                { "course_description": "AngularJS #6 / Custom Directives / ngMessages / Form Validation",
                   "course_instructor":  "(cu Valentin Buză)",
                   "course_date":        "21 nov. 2015"
                 },
