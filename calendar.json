@@ -4,31 +4,31 @@
                 },
                 { "course_description": "AngularJS #1 / Concepts / Backend-less Applications",
                   "course_instructor":  "(cu Alexandru Niculae și Laurențiu Piciu)",
-                  "course_date":        "24 oct. 2015"
+                  "course_date":        "25 oct. 2015"
                 },
                 { "course_description": "AngularJS #2 / AJAX / $http.get / $http.post",
                   "course_instructor":  "(cu Dan Șerban)",
-                  "course_date":        "31 oct. 2015"
+                  "course_date":        "1 nov. 2015"
                 },
                 { "course_description": "AngularJS #3 / With Rails As The Backend",
                   "course_instructor":  "(cu Dan Șerban)",
-                  "course_date":        "7 nov. 2015"
+                  "course_date":        "8 nov. 2015"
                 },
                 { "course_description": "AngularJS #4 / Custom Directives",
                   "course_instructor":  "(cu Laurențiu Piciu)",
-                  "course_date":        "14 nov. 2015"
+                  "course_date":        "15 nov. 2015"
                 },
                 { "course_description": "AngularJS #6 / Custom Directives / ngMessages / Form Validation",
                   "course_instructor":  "(cu Valentin Buză)",
-                  "course_date":        "21 nov. 2015"
+                  "course_date":        "22 nov. 2015"
                 },
                 { "course_description": "AngularJS #5 / Socket.IO / Three-Way Binding",
                   "course_instructor":  "(TBD)",
-                  "course_date":        "28 nov. 2015"
+                  "course_date":        "29 nov. 2015"
                 },
                 { "course_description": "AngularJS #7 / Socket.IO / Three-Way Binding",
                   "course_instructor":  "(TBD)",
-                  "course_date":        "5 dec. 2015"
+                  "course_date":        "6 dec. 2015"
                 },
                 { "course_description": "Hackaton Final",
                   "course_instructor":  "(se va desfășura la <a href=https://bucharest.techhub.com/ target=_blank>TechHub Bucharest</a>)",
