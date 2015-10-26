@@ -1,4 +1,4 @@
-{ "frontend": [ { "course_description": "Git / GitHub / Single Page Applications",
+{ "frontend": [ { "course_description": "Single Page Applications",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "18 oct. 2015"
                 },
@@ -10,7 +10,7 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "1 nov. 2015"
                 },
-                { "course_description": "AngularJS #3 / With Rails As The Backend",
+                { "course_description": "AngularJS #3 / UI Router / AngularJS-Rails Integration",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "8 nov. 2015"
                 },
@@ -23,7 +23,7 @@
                   "course_date":        "22 nov. 2015"
                 },
                 { "course_description": "AngularJS #5 / Socket.IO / Three-Way Binding",
-                  "course_instructor":  "(TBD)",
+                  "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "29 nov. 2015"
                 },
                 { "course_description": "AngularJS #7 / Socket.IO / Three-Way Binding",
@@ -35,7 +35,7 @@
                   "course_date":        "12-13 dec. 2015"
                 }
               ],
-  "backend":  [ { "course_description": "Git / Rails Sneak Preview",
+  "backend":  [ { "course_description": "Rails Sneak Preview",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "17 oct. 2015"
                 },
