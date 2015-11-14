@@ -27,7 +27,7 @@
                   "course_date":        "29 nov. 2015"
                 },
                 { "course_description": "AngularJS #7 / Socket.IO / Three-Way Binding",
-                  "course_instructor":  "(TBD)",
+                  "course_instructor":  "(cu Alexandru Niculae și Dan Șerban)",
                   "course_date":        "6 dec. 2015"
                 },
                 { "course_description": "Hackaton Final",
@@ -55,7 +55,7 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "14 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #3 / With AngularJS As The Frontend",
+                { "course_description": "Ruby on Rails #3 / ActiveRecord",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "21 nov. 2015"
                 },
@@ -63,8 +63,8 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "28 nov. 2015"
                 },
-                { "course_description": "Ruby on Rails #5 / ActiveRecord Migrations",
-                  "course_instructor":  "(cu Andrei Bocan)",
+                { "course_description": "Ruby on Rails #5",
+                  "course_instructor":  "(TBD)",
                   "course_date":        "5 dec. 2015"
                 },
                 { "course_description": "Hackaton Final",
