@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html class="fullheight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta property="og:site_name" content="WebDev">
+  <meta property="og:title" content="WebDev">
+  <meta property="og:description" content="Curs de dezvoltare web ghidată de teste, cu o durată de 10 săptămâni, dedicat tuturor elevilor și studenților interesați de tehnologii libere">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://webdevupb.github.io/">
+  <meta property="og:image" content="http://i.imgur.com/FfqaAqW.jpg">
+  <title>WebDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+</head>
+<body class="fullheight">
+<div class="flexboxlayout fullheight">
+  <div class="wrapper">
+    <div class="row-fluid">
+      <div class="span3" id="menu_wrapper">
+        <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="images/transparent.png" below -->
+        <h2 id="menu_header" class="logotoppadding"><img id="webdev_logo" src="images/transparent.png" style="max-width: 100%;"></h2>
+        <div id="menu">
+          <ul style="font-family: 'OpenSansRegular';">
+            <li class="webdevmenuitem" data-id="#acasa">    <a href="#acasa">Ediția 2015</a>       </li>
+            <li class="webdevmenuitem" data-id="#frontend"> <a href="#frontend">Frontend Track</a> </li>
+            <li class="webdevmenuitem" data-id="#backend">  <a href="#backend">Backend Track</a>   </li>
+            <li class="webdevmenuitem" data-id="#cursanti"> <a href="#cursanti">Cursanți</a>       </li>
+            <li class="webdevmenuitem" data-id="#meta">     <a href="#meta">Despre noi</a>         </li>
+<!--
+            <li class="webdevmenuitem" data-id="#sponsors"> <a href="#sponsors">Sponsors</a>       </li>
+-->
+          </ul>
+        </div> <!-- id="menu" -->
+      </div> <!-- id="menu_wrapper" -->
+
+      <div class="main span8 offset1">
+        <span id="top_of_content"></span>
+        <div id="acasa_content" class="visualstate">
+          <h2 id="webdev_heading" style="margin-top: 12px; margin-bottom: 20px;">Ediția toamnă 2015 s-a încheiat.</h2>
+<!--
+          <h3>Cursurile din ediția toamnă 2015 sunt organizate pe două track-uri: <a href="#frontend" class="webdevmenuitem" data-id="#frontend" style="font-size: 20px;">frontend</a> și <a href="#backend" class="webdevmenuitem" data-id="#backend" style="font-size: 20px;">backend</a>.</h3>
+          <p>
+            <strong>
+              WebDev constă din două track-uri care se desfășoară în paralel:
+              <ul>
+                <li>Track-ul frontend, unde vor fi abordate topic-uri JavaScript la nivel intermediar spre avansat (cu accent pe AngularJS v1.x). Deoarece WebDev este un curs de web development și nu unul de web design, nu vor fi tratate deloc (cel puțin nu explicit) topic-uri de HTML sau CSS. Ne așteptăm ca, dacă te-ai înscris la acest track, să studiezi pe cont propriu sintaxa și noțiunile de bază din HTML și CSS, și să te descurci să scrii progrămele simple în JavaScript. Pentru a te familiariza cu noțiunile de bază de JavaScript necesare pentru participarea la track-ul frontend, îți recomandăm următoarele resurse: tutorialul <a href="http://learnxinyminutes.com/docs/javascript/" target="_blank">Learn JavaScript in Y Minutes</a>, primele 20 de minute ale <a href="https://www.youtube.com/watch?v=zIpA8k167gU" target="_blank">acestui screencast</a>, exercițiile de <a href="http://javascript.didacto.net/" target="_blank">aici</a>, și seria <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank">A re-introduction to JavaScript</a>.</li>
+                <li>Track-ul backend, unde vei putea învăța despre Ruby on Rails, MVC Design Pattern, etc. Limbajul Ruby îl vom acoperi în totalitate pornind de la zero, nu este nevoie să-l studiezi pe cont propriu înainte de începerea cursului.</li>
+              </ul>
+            </strong>
+          </p>
+          <p>
+            <strong>
+              WebDev se va încheia cu un hackaton de două zile în care vei lucra împreună cu colegii tăi de curs, în cadrul unei echipe mixte frontend/backend, la un proiect ales de echipă. Nu va fi ușor! Lucrul în echipă aduce în mod inerent cu sine provocări de natură tehnică și interumană care nu sunt evidente atunci când lucrezi singur. Cu sprijinul mentorilor WebDev vei putea depăși aceste provocări, și aduce proiectul într-o formă finală pe care s-o poți prezenta tuturor la încheierea hackaton-ului.
+              <br>
+              Fotografii de la hackatoanele WebDev din anii recenți:
+              <br>
+              <a href="images/Hackaton.WebDev.2013.jpg" target="_blank">[ 2013 ]</a>&nbsp;&nbsp;<a href="images/Hackaton.WebDev.2014a.jpg" target="_blank">[ 2014 ]</a>&nbsp;&nbsp;<a href="images/Hackaton.WebDev.2014b.jpg" target="_blank">[ 2014 ]</a>
+            </strong>
+          </p>
+          <p>
+            <strong>
+              Cursurile WebDev sunt gratuite, însă numărul de locuri este limitat.
+            </strong>
+          </p>
+          <br>
+          <p>
+            <strong>
+              Dacă ai întrebări generale legate de curs, lasă un comentariu <a href="https://github.com/dserban/webdev2015fall/issues/2" target="_blank">aici</a>.
+            </strong>
+          </p>
+          <br>
+          <h3>Locul desfășurării</h3>
+          <p>
+            <strong>
+              Cursurile WebDev se vor ține în săli de curs situate în zona stației de metrou "Politehnica" sau în zona Piața Universității. Locul desfășurării va fi comunicat în timp util, prin mesaj privat, cursanților admiși.
+            </strong>
+          </p>
+          <br>
+          <h3>Resurse utile pentru cursanți</h3>
+          <p><strong><a href="https://github.com/dserban/WebDevCourseMaterials/blob/master/0-installing-rvm/README.md" target="_blank">Install Ruby on Rails</a></strong></p>
+          <p><strong>git clone https://github.com/dserban/RailsApps.git</strong></p>
+          <p><strong>git clone https://github.com/webdevupb/webdevupb.github.io.git</strong></p>
+          <p><strong>git clone https://github.com/dserban/AngularForTheAbsoluteBeginner.git</strong></p>
+          <p><strong>git clone https://github.com/zmack/ruby-things.git</strong></p>
+          <p><strong>git clone https://github.com/alexnix/angular101.git</strong></p>
+          <p><strong><a href="https://github.com/laurentiu-piciu/WebDev" target="_blank">Demo Directive AngularJS</a></strong></p>
+          <p><strong><a href="https://github.com/dserban/WebDevCourseMaterials/blob/master/1-intro-to-sql/README.md" target="_blank">Introduction To SQL</a></strong></p>
+          <p><strong><a href="https://github.com/dserban/WebDevCourseMaterials/blob/master/2-activerecord-api/README.md" target="_blank">The ActiveRecord API</a></strong></p>
+          <p><strong>git clone https://github.com/dserban/SecretSantaWithAngularUIRouter.git</strong></p>
+          <p><strong>git clone https://github.com/dserban/PersonalDevelopmentAppAngularJS.git</strong></p>
+          <p><strong>git clone https://github.com/dserban/AJAXTextSearch.git</strong></p>
+          <p><strong>git clone https://github.com/dserban/PersonalDevelopmentAppWithUIRouter.git</strong></p>
+          <p><strong>git clone https://github.com/dserban/RailsBackendAngularFrontendToDoListApp.git</strong></p>
+          <p><strong><a href="https://github.com/valentinbuza/angularjs-webdev-presentation/tree/master/typing-words-game" target="_blank">Typing-Words Game</a></strong></p>
+          <p><strong>git clone https://github.com/dserban/RadioButtonsApp.git</strong></p>
+          <p><strong></strong></p>
+          <p><strong></strong></p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong><a href="https://docs.google.com/forms/d/1inyf8V41yT4e1zz8BTVYDq84Ka9urifplQRWblmQmBk/viewform" target="_blank">Formular Feedback WebDev 2015</a></strong></p>
+          <p>
+            <strong>
+              S-au încheiat înscrierile pentru WebDev.
+              <br>
+              După interviuri și selecție, vom publica - într-o secțiune dedicată a site-ului - lista cursanților admiși, cel târziu pe 15 octombrie 2015, la ora 23:59.
+            </strong>
+          </p>
+          <p>
+            <strong>
+              Admiterea (la oricare dintre track-urile cursului) va consta din două probe obligatorii:
+              <ul>
+                <li>Va trebui să rezolvi <a href="https://github.com/dserban/webdev2015fall/issues/3" target="_blank">o problemă de programare (Two-Three Zig-Zag)</a> și <a href="https://github.com/dserban/webdev2015fall/issues/4" target="_blank">una de logică</a>.</li>
+                <li>Va trebui să susții un interviu face-to-face cu noi (la începutul lunii octombrie).</li>
+              </ul>
+            </strong>
+          </p>
+          <p>
+            <strong>
+              După ce rezolvi problemele, completează, te rugăm, <a href="https://docs.google.com/forms/d/14YAqpG1rPa0-eJfA2v1nCatC91XA-x0MUF-SQIu_5V0/viewform" target="_blank">acest formular</a>.
+            </strong>
+          </p>
+          <p>
+            <strong>
+              Dacă ai întrebări generale legate de înscriere, lasă un comentariu <a href="https://github.com/dserban/webdev2015fall/issues/2" target="_blank">aici</a>.
+            </strong>
+          </p>
+          <p>
+            <strong>
+              Termenul-limită pentru trimiterea soluțiilor la cele două probleme va fi 14 octombrie 2015, la ora 23:59. După interviuri și selecție, vom publica - într-o secțiune dedicată a site-ului - lista cursanților admiși, cel târziu pe 15 octombrie 2015, la ora 23:59.
+            </strong>
+          </p>
+-->
+        </div> <!-- id="acasa_content" -->
+
+        <div id="frontend_content" class="visualstate">
+          <!-- We use JavaScript to load the most up-to-the-minute up-to-date course descriptions and dates from the file calendar.json, therefore the text containers inside the table cells below are empty. This workaround was necessary due to a particular behavior in Google Chrome. -->
+          <table>
+            <tr>
+              <td>
+                <h3>Frontend Track - Structură / Calendar</h3>
+                <br>
+                <strong>Cursurile de mai jos se vor desfășura în intervalul orar 11-15.<br>Hackathon-ul final se va desfășura pe parcursul celor două zile menționate mai jos, în intervalele orare 10-23 în prima zi, respectiv 10-18 în cea de-a doua zi.</strong>
+                <br>&nbsp;
+                <br>&nbsp;
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="table" id="frontend_schedule">
+                  <tr>
+                    <td>
+                      <strong>Single Page Applications</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>18 oct. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #1 / Concepts / Backend-less Applications</strong>
+                      <br>
+                      <strong>(cu Alexandru Niculae și Laurențiu Piciu)</strong>
+                    </td>
+                    <td class="alignright"><strong>25 oct. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #2 / AJAX / $http.get / $http.post</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>1 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #3 / UI Router / AngularJS-Rails Integration</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>8 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #4 / Custom Directives</strong>
+                      <br>
+                      <strong>(cu Laurențiu Piciu)</strong>
+                    </td>
+                    <td class="alignright"><strong>15 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #6 / Custom Directives / ngMessages / Form Validation</strong>
+                      <br>
+                      <strong>(cu Valentin Buză)</strong>
+                    </td>
+                    <td class="alignright"><strong>22 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #5 / Socket.IO / Three-Way Binding</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>29 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>AngularJS #7 / Socket.IO / Git / GitHub</strong>
+                      <br>
+                      <strong>(cu Alexandru Niculae și Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>6 dec. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Hackaton Final</strong>
+                      <br>
+                      <strong>(se va desfășura la 360HUB)</strong>
+                    </td>
+                    <td class="alignright"><strong>12-13 dec. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <strong>Programul de mai sus poate suferi modificări în funcție de disponibilitatea instructorilor / sălilor.<br>Te rugăm să-l consulți ori de câte ori este necesar pentru a fi la curent cu eventuale modificări de ultim moment.</strong>
+              </td>
+            </tr>
+          </table>
+        </div> <!-- id="frontend_content" -->
+
+        <div id="backend_content" class="visualstate">
+          <!-- We use JavaScript to load the most up-to-the-minute up-to-date course descriptions and dates from the file calendar.json, therefore the text containers inside the table cells below are empty. This workaround was necessary due to a particular behavior in Google Chrome. -->
+          <table>
+            <tr>
+              <td>
+                <h3>Backend Track - Structură / Calendar</h3>
+                <br>
+                <strong>Cursurile de mai jos se vor desfășura în intervalul orar 11-15.<br>Hackaton-ul final se va desfășura pe parcursul celor două zile menționate mai jos, în intervalele orare 10-23 în prima zi, respectiv 10-18 în cea de-a doua zi.</strong>
+                <br>&nbsp;
+                <br>&nbsp;
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="table" id="backend_schedule">
+                  <tr>
+                    <td>
+                      <strong>Rails Sneak Preview</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>17 oct. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby #1 (Basic)</strong>
+                      <br>
+                      <strong>(cu Darius Neațu și Andrei Bocan)</strong>
+                    </td>
+                    <td class="alignright"><strong>24 oct. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby #2 (Advanced)</strong>
+                      <br>
+                      <strong>(cu Andrei Bocan)</strong>
+                    </td>
+                    <td class="alignright"><strong>31 oct. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #1 / View / Controller</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>7 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #2 / ActiveRecord</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>14 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #3 / ActiveRecord</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>21 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #4 / ActiveRecord Validations / Selenium / Rails Generators</strong>
+                      <br>
+                      <strong>(cu Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>28 nov. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Ruby on Rails #5 / Web Scraping / Git / GitHub</strong>
+                      <br>
+                      <strong>(cu Rareș Visalom și Dan Șerban)</strong>
+                    </td>
+                    <td class="alignright"><strong>5 dec. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Hackaton Final</strong>
+                      <br>
+                      <strong>(se va desfășura la 360HUB)</strong>
+                    </td>
+                    <td class="alignright"><strong>12-13 dec. 2015<br>&nbsp;<br>&nbsp;</strong></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <strong>Programul de mai sus poate suferi modificări în funcție de disponibilitatea instructorilor / sălilor.<br>Te rugăm să-l consulți ori de câte ori este necesar pentru a fi la curent cu eventuale modificări de ultim moment.</strong>
+              </td>
+            </tr>
+          </table>
+        </div> <!-- id="backend_content" -->
+
+        <div id="cursanti_content" class="visualstate">
+<!--
+          <h3>Cursanți WebDev</h3>
+-->
+          <table class="table">
+
+            <tr><td><h3>Cursanți WebDev - Ambele Track-uri</h3></td></tr>
+
+            <tr><td><strong>Denisa Sandu</strong></td></tr> <!-- kittenstein -->
+            <tr><td><strong>Teodor-Claudiu Ciuraru</strong></td></tr> <!-- teo029 -->
+            <tr><td><strong>Andreea Dincu</strong></td></tr> <!-- andr2xea -->
+            <tr><td><strong>Costin Giorgian Papuc</strong></td></tr> <!-- costinpapuc -->
+            <tr><td><strong>Andrei-Iulian Mardale</strong></td></tr> <!-- Andrei-Mardale -->
+            <tr><td><strong>Robert-Ștefan Dumitru</strong></td></tr> <!-- drobert19 -->
+            <tr><td><strong>Alexandru-Mihai Lungeanu</strong></td></tr> <!-- alexandru-lungeanu -->
+            <tr><td><strong>Andreea Guriță</strong></td></tr> <!-- AndreeaGrt -->
+            <tr><td><strong>Teodor Mihai Coteț</strong></td></tr> <!-- TeodorMihai -->
+            <tr><td><strong>Nicolae-Vlad Cornoiu</strong></td></tr> <!-- vladutz18 -->
+            <tr><td><strong>Orlando-Georgian Ene</strong></td></tr> <!-- cyberthreat -->
+
+            <tr><td><h3>Cursanți WebDev - Frontend Track Only</h3></td></tr>
+
+            <tr><td><strong>Sabin Antohe</strong></td></tr> <!-- antsab20 -->
+            <tr><td><strong>Bogdan Tălpigă</strong></td></tr> <!-- bogdantalpiga -->
+            <tr><td><strong>Theodor Stoican</strong></td></tr> <!-- teodor22 -->
+            <tr><td><strong>George Cristian</strong></td></tr> <!-- george-cristian -->
+            <tr><td><strong>Marius-Florin Ionescu</strong></td></tr> <!-- MariusI23 -->
+            <tr><td><strong>George-Alexandru Oprea</strong></td></tr> <!-- OpreaGeorge -->
+            <tr><td><strong>Andrei Ilinca</strong></td></tr> <!-- ailinca -->
+            <tr><td><strong>Marilena Beșcucă</strong></td></tr> <!-- maryb14 -->
+            <tr><td><strong>Mihai Popescu</strong></td></tr> <!-- mihaisavezi -->
+            <tr><td><strong>Mihai Chirculescu</strong></td></tr> <!-- Mihaiii -->
+            <tr><td><strong>Nadina Maria Pîrvănescu</strong></td></tr> <!-- NadinaMaria -->
+            <tr><td><strong>Rareș-Mihail Visalom</strong></td></tr> <!-- raresvis -->
+
+            <tr><td><h3>Cursanți WebDev - Backend Track Only</h3></td></tr>
+
+            <tr><td><strong>Andrei Tănăsescu</strong></td></tr> <!-- Dorinel44 -->
+            <tr><td><strong>Răzvan-Ștefan Brînzea</strong></td></tr> <!-- razzu -->
+            <tr><td><strong>Teodor-Mircea Popescu</strong></td></tr> <!-- teo2mirce -->
+            <tr><td><strong>Robert-Andrei Damian</strong></td></tr> <!-- damianr13 -->
+            <tr><td><strong>Marian-Paul Sichitiu</strong></td></tr> <!-- BKmarian -->
+            <tr><td><strong>Mihai Bot</strong></td></tr> <!-- mihai2610 -->
+            <tr><td><strong>Rareș Cheșeli</strong></td></tr> <!-- rares96cheseli -->
+            <tr><td><strong>Ștefan Florescu</strong></td></tr> <!-- stefanf7 -->
+            <tr><td><strong>Ioana Daniela Mihai</strong></td></tr> <!-- ioanaMihai -->
+            <tr><td><strong>Florin-Eugen Iancu</strong></td></tr> <!-- flriancu -->
+            <tr><td><strong>Florin Năstase</strong></td></tr> <!-- Florin95 -->
+            <tr><td><strong>Teodora Șerbănescu</strong></td></tr> <!-- teoserbanescu -->
+            <tr><td><strong>Alexandru-Gabriel Irimia</strong></td></tr> <!-- roots4 -->
+
+          </table>
+
+        </div> <!-- id="cursanti_content" -->
+
+        <div id="meta_content" class="visualstate">
+          <h3>Credits</h3>
+          <p>(în ordine alfabetică):
+          <br>
+          Andrei Bocan, Valentin Buză, Darius Neațu, Dumitru Nemțuc, Alexandru Niculae, Laurențiu Piciu, Radu Stochițoiu, Dan Șerban și prietenii.</p>
+          <br>
+          <h3>Ediții anterioare</h3>
+          <p>
+            <a href="past-editions/2013/" target="_blank">Toamnă 2013</a>
+            <br>
+            <a href="past-editions/2014/" target="_blank">Toamnă 2014</a>
+          </p>
+          <br>
+        </div> <!-- id="meta_content" -->
+
+        <div id="sponsors_content" class="visualstate">
+          <table>
+            <tr>
+              <td class="sponsor_logo_td">
+                <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="" below -->
+                <a href="https://www.google.com/search?q=2017+Computer+Science+Internships" target="_blank"><img style="max-width: 210px;" src="http://i.imgur.com/8d1vnP9.png"></a>
+              </td>
+              <td class="sponsor_copy_td">
+                <p><strong>Sponsor: Name Of Company Looking To Offer Summer 2017 Internships</strong></p>
+                <p>We are a global software company with a nice engineering culture. All of your work as our intern will be open source.</p>
+                <p><a href="https://www.google.com/search?q=2017+Computer+Science+Internships" target="_blank">Company Site</a></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="sponsor_logo_td">
+                <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="" below -->
+                <a href="https://www.google.com/search?q=2017+Computer+Science+Internships" target="_blank"><img style="max-width: 210px;" src="http://i.imgur.com/8d1vnP9.png"></a>
+              </td>
+              <td class="sponsor_copy_td">
+                <p><strong>Sponsor: Name Of Company Looking To Offer Summer 2017 Internships</strong></p>
+                <p>We are a global software company with a nice engineering culture. All of your work as our intern will be open source.</p>
+                <p><a href="https://www.google.com/search?q=2017+Computer+Science+Internships" target="_blank">Company Site</a></p>
+              </td>
+            </tr>
+          </table>
+        </div> <!-- id="sponsors_content" -->
+
+        <div id="call_for_sponsorship_content" class="visualstate">
+          <h3>Call For Sponsorship</h3>
+          <p>
+            <strong>Note: This is a landing page containing information which is of interest to potential sponsors of WebDev.<br>The actual WebDev site (in Romanian) is <a href="#acasa" class="webdevmenuitem" data-id="#acasa">here</a>.</strong>
+          </p>
+          <h3>Executive Summary</h3>
+          <p>
+            <strong>Your company can support 40 bright CS students who are very capable programmers and who are highly motivated to learn the real-world skills of how to build and ship a digital product on the web platform.<br>In a few years, these students will be among the software industry's thought leaders, and WebDev is a wonderful opportunity to make them aware of your brand today.</strong>
+          </p>
+          <p>
+            <strong>We invite you to contribute EUR 200 to the success of the fall 2016 edition of WebDev.</strong>
+          </p>
+          <p>
+            <strong>We have estimated that the baseline cost of this year's edition of WebDev will be EUR 2000.<br>This means that with gracious help from 10 companies such as yours, each contributing EUR 200, we can bring the 6th edition of WebDev free of charge to a group of 40 carefully selected, very bright CS students.</strong>
+          </p>
+          <p>
+            <strong>In-kind support is also highly appreciated, the details are below.</strong>
+          </p>
+          <p>
+            <strong>In return for your gracious EUR 200 sponsorship, we would be more than happy to display your brand both in the dedicated section of our site as well as physically, on a roll-up banner that will be prominently on display during the WebDev workshops / hackathon.</strong>
+          </p>
+          <h3>Comprehensive Details</h3>
+          <p>
+            <strong>My name is Dan Șerban and on behalf of the team organizing WebDev I am happy to provide you with all the information you need, in order to help you decide if you would like to sponsor the program.</strong>
+          </p>
+          <p>
+            <strong>WebDev is a completely independent and volunteer-run educational project.<br>WebDev is not affiliated with academia or industry.</strong>
+          </p>
+          <p>
+            <strong>WebDev takes place every year over nine weekends (between mid-October and mid-December) in Bucharest (the capital city of Romania).<br>WebDev is targeted at freshman/sophomore CS students who are proficient with data structures and algorithms, and prepares them to tackle the real-world challenges of software engineering.<br>The program is free of charge to participants and begins with a very rigorous selection process.<br>Before being admitted into WebDev, students have to pass two coding assignments which can only be solved with deep knowledge of data structures and algorithms.<br>The net result of the very high admission standards is that they create a very cohesive community of students who enjoy working with each other during the final 2-day hackathon.</strong>
+          </p>
+          <p>
+            <strong>Over time, we learned some interesting facts about WebDev participants and alumni. Within a year or two of attending the program, most of them become passionate about solving hard problems in the areas of compiler engineering, kernel development / embedded systems, as well as artificial intelligence / distributed systems / big data.<br>In casual conversation, they mention to us that WebDev was a very useful learning experience and a very effective way for them to gain the much-desired web development skills so that later on they have the freedom to pursue their real interests as their CS majors.</strong>
+          </p>
+          <p>
+            <strong>The structure of WebDev consists of eight weekends of instructor-led workshops covering both backend and frontend technologies (Ruby on Rails and AngularJS), for a total of 80 hours (5 hours each Saturday covering Ruby on Rails and 5 hours each Sunday covering AngularJS).<br>At the end of WebDev students get together for the final hackathon weekend. They form mixed (backend+frontend) teams and work on a project of their choosing.<br>The final hackathon weekend consists of 20 hours of designing and building from scratch a non-trivial web application using the tools and software engineering techniques learned in the previous eight weeks.<br>The hackathon runs from 10:00-23:00 on the first day, and from 10:00-18:00 on the second day. At the end of the hackathon, participants are asked to fill out a simple feedback form, and we know from their feedback that they are amazed at how much experience they have gained over such a short period of time.</strong>
+          </p>
+          <p>
+            <strong>Besides mastering the actual tools, an integral part of the WebDev learning experience is being exposed to the important ideas of clean code, refactoring, unit testing, continuous integration, task estimation, as well as the discipline of working as a member of a team with clearly defined backend/frontend roles.</strong>
+          </p>
+          <p>
+            <strong>WebDev needs your support because, as you might imagine, the program is not easy to organize and deliver.</strong>
+          </p>
+          <p>
+            <strong>In an ideal world, WebDev would take place in a classroom that is available over the weekend and comes with all necessary equipment readily in place:<br>- projector and screen<br>- high-bandwidth WiFi<br>- extension cords.</strong>
+          </p>
+          <p>
+            <strong>But the reality is different.</strong>
+          </p>
+          <p>
+            <strong>From discussions we've had with potential sponsors in previous years, many companies have such classrooms available for their own internal training needs.<br>These companies could conceivably make their classrooms available to WebDev, except not during weekends.<br>That is because the building security code usually dictates that an employee of the respective company needs to be in physical attendance throughout the entire duration of the classroom activity (10 hours every weekend).<br>This complicates things very much since the company's employees want to enjoy their weekends away from work and WebDev can only take place during weekends due to participants' school-related commitments.</strong>
+          </p>
+          <p>
+            <strong>So it becomes necessary to raise money in order to lease fully-equipped classrooms from dedicated learning facility providers.</strong>
+          </p>
+          <p>
+            <strong>A less expensive but still workable alternative to leasing fully-equipped classrooms would be to lease basic classrooms with only chairs and desks and just enough room for the projector / screen area.<br>This in turn makes it necessary for us to bring our own equipment, and install / dismantle when a workshop begins / ends.<br>This in turn creates logistical challenges related to transporting massive amounts of digital equipment / extension cords / roll-up banners / snacks / bottled water from organizers' homes to the workshop venue and back.</strong>
+          </p>
+          <p>
+            <strong>Your support is needed either in monetary form or in-kind, as one of the following:<br>1. Can you provide a basic classroom with chairs and desks for 25 people over eight weekends during the fall of 2016?<br>2. Can we borrow from you for the entire duration of WebDev a projector and screen?<br>3. Can we borrow from you for the entire duration of WebDev a portable, high-bandwidth mobile Internet gateway with corresponding WiFi access point / router?<br>4. Can we borrow from you for the entire duration of WebDev a number of between 3 and 5 Chromebooks for remote coding use by students who cannot afford to own their own laptop?<br>5. Can you make available to us for the entire duration of WebDev enough cloud storage and computing power such that those students who code remotely via Chromebooks can bring their classroom exercises and final hackathon projects to completion?<br>6. Can you make available to us for the entire duration of WebDev a location where we can safely store equipment and roll-up banners between workshops?</strong>
+          </p>
+          <p>
+            <strong>Point 4 above is due to the fact that in the country of Romania, as we saw at the start of previous editions of WebDev, many talented and highly motivated CS students simply cannot participate in the program due to the fact that they cannot afford to purchase their own laptop.</strong>
+          </p>
+          <br>
+          <p>
+            <strong>Thanks for reading so far. We hope we were able to convey to you why we believe contributing to the success of WebDev will be a good way to promote your brand.</strong>
+          </p>
+          <p>
+            <strong>The fall 2016 edition of WebDev will be launched on October 1st, once the students are back from summer break.<br>We hope you consider supporting the program in the most suitable way available to you.<br>Thank you in advance.</strong>
+          </p>
+          <p>
+            <strong>Best Regards,<br>
+Dan Șerban on behalf of the team organizing WebDev<br>
+dserban01@yahoo.com<br>
+<a href="https://www.linkedin.com/in/apachesparkdataengineer" target="_blank">Please connect with me on Linkedin</a></strong>
+          </p>
+          <p>
+            <strong>P.S. Below is a picture of myself as I lead one of the Ruby on Rails workshops during the fall 2015 edition of WebDev.</strong>
+          </p>
+          <img src="http://i.imgur.com/3xtux2V.jpg">
+        </div> <!-- id="call_for_sponsorship_content" -->
+
+        <h3>&nbsp;</h3>
+
+        <p class="extra_buttons" id="tap_target_acasa">
+          <button class="btn greybutton webdevmenuitem" data-id="#acasa">
+            <strong>Ediția 2015</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#frontend">
+            <strong>Frontend Track</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#backend">
+            <strong>Backend Track</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#cursanti">
+            <strong>Cursanți</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#meta">
+            <strong>Despre noi</strong>
+          </button>
+        </p>
+<!--
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#sponsors">
+            <strong>Sponsors</strong>
+          </button>
+        </p>
+-->
+      </div> <!-- class="main span8 offset1" -->
+    </div> <!-- class="row-fluid" -->
+  </div> <!-- class="wrapper" -->
+
+  <div style="display: none;">
+    <img id="arrow_hover" src="">
+    <img id="gradient" src="">
+  </div>
+</div> <!-- class="flexboxlayout fullheight" -->
+</body>
+</html>
+<script type="text/html" id="schedule_item">
+<tr>
+  <td>
+    <strong><%= course_description %></strong>
+    <br>
+    <strong><%= course_instructor %></strong>
+  </td>
+  <td class="alignright"><strong><%= course_date %><br>&nbsp;<br>&nbsp;</strong></td>
+</tr>
+</script>
+<script src="js/zepto.min.js"></script>
+<script src="js/underscore.min.js"></script>
+<script src="js/main.js"></script>
+
