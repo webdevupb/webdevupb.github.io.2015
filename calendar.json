@@ -26,7 +26,7 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "27 nov. 2016"
                 },
-                { "course_description": "AngularJS #7 / Socket.IO / Git / GitHub / Continuous Integration",
+                { "course_description": "AngularJS #7 / Socket.IO / Git / Continuous Integration",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "11 dec. 2016"
                 },
@@ -63,7 +63,7 @@
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "26 nov. 2016"
                 },
-                { "course_description": "Web Scraping / Git / GitHub / Docker / DockerHub / Continuous Integration",
+                { "course_description": "Web Scraping / Git / Docker / DockerHub / Continuous Integration",
                   "course_instructor":  "(cu Dan Șerban)",
                   "course_date":        "10 dec. 2016"
                 },
